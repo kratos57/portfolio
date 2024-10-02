@@ -335,6 +335,65 @@ span{
     box-shadow: 0 0 25px #b74b4b;
 }
 
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .contact-content h1 {
+        font-size: 3rem;
+    }
+
+    .contact-content p {
+        font-size: 1.4rem;
+    }
+
+    .contact-info {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        gap: 2rem; /* Smaller gap for stacking */
+    }
+
+    .contact-item {
+        width: 80%; /* Limit the width of contact items */
+        text-align: center; /* Center text for better readability */
+    }
+
+    .contact-item h3 {
+        font-size: 1.8rem;
+    }
+
+    .contact-item p {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        padding: 1rem 2rem; /* Smaller button padding */
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact-content p {
+        font-size: 1.2rem;
+    }
+
+    .contact-item h3 {
+        font-size: 1.6rem;
+    }
+
+    .contact-item p {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: 0.8rem 1.5rem; /* Even smaller button padding */
+        font-size: 1.2rem;
+    }
+}
+
+
 
 
 /* Projects Section */
