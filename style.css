@@ -286,6 +286,7 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1; /* Allow items to grow and fill space */
 }
 
 .contact-item i {
@@ -352,7 +353,7 @@ span{
     }
 
     .contact-item {
-        width: 80%; /* Limit the width of contact items */
+        width: 90%; /* Adjust width for mobile */
         text-align: center; /* Center text for better readability */
     }
 
@@ -392,7 +393,6 @@ span{
         font-size: 1.2rem;
     }
 }
-
 
 
 /* Projects Section */
