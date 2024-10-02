@@ -276,7 +276,7 @@ span{
 
 .contact-info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Center items with space around */
     gap: 4rem;
     margin-bottom: 4rem;
     width: 100%;
@@ -337,18 +337,18 @@ span{
 
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center the items */
+        gap: 2rem; /* Smaller gap for stacked items */
+    }
+
     .contact-content h1 {
         font-size: 3rem;
     }
 
     .contact-content p {
         font-size: 1.4rem;
-    }
-
-    .contact-info {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items */
-        gap: 2rem; /* Smaller gap for stacking */
     }
 
     .contact-item {
@@ -392,7 +392,6 @@ span{
         font-size: 1.2rem;
     }
 }
-
 
 
 
